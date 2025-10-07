@@ -2,7 +2,7 @@ import { Briefcase, TrendingUp, BarChart3 } from "lucide-react";
 
 const experiences = [
   {
-    company: "Yassaka",
+    company: "Yassaka Consultoria e Treinamento em Gestão Empresarial",
     role: "Analista de CRM e Dados",
     period: "Maio/2025 – Atualmente",
     current: true,

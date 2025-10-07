@@ -5,7 +5,7 @@ import { Target, CheckCircle2, TrendingUp } from "lucide-react";
 const experienceData = [
   {
     id: "yassaka",
-    company: "Yassaka",
+    company: "Yassaka Consultoria e Treinamento em Gestão Empresarial",
     role: "Analista de CRM e Dados",
     period: "Maio/2025 – Atualmente",
     description: "Responsável por análises estratégicas de CRM, desenvolvimento de integrações e criação de dashboards para apoiar decisões comerciais e de marketing.",
