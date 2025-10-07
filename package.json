@@ -1,14 +1,17 @@
 {
   "name": "vite_react_shadcn_ts",
+  "homepage": "https://CaioSantosnextlytics.github.io/Curriculo_CaioSantos",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
