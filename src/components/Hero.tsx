@@ -5,8 +5,12 @@ import heroBg from "@/assets/hero-bg.jpg";
 export const Hero = () => {
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/Curriculo_Caio_Santos.docx';
-    link.download = 'Curriculo_Caio_Santos.docx';
+    
+    // CORREÇÃO CRUCIAL: Incluindo o nome do repositório no caminho
+    // E usando o nome do arquivo simplificado (que você deve ter renomeado na pasta public)
+    link.href = '/Curriculo_CaioSantos/curriculo-caio-santos.docx';
+    
+    link.download = 'curriculo-caio-santos.docx'; // O nome sugerido para o download
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
